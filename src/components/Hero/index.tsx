@@ -1,5 +1,4 @@
 import React from 'react';
-import { getCurrentYear } from '../../functions';
 import content from './content';
 import * as Component from './styles';
 
@@ -11,7 +10,7 @@ const {
   fullName,
 } = content;
 
-const Footer: React.FC = () => (
+const Hero: React.FC = () => (
     <Component.Wrapper>
 
       <Component.Heading><span>{pre}</span>{title}</Component.Heading>
@@ -22,7 +21,9 @@ const Footer: React.FC = () => (
 
       <Component.Role>{role}</Component.Role>
 
+      <Component.Arrow onClick={() => alert('go down')} />
+
     </Component.Wrapper>
 );
 
-export default Footer;
+export default Hero;

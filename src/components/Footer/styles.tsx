@@ -7,7 +7,7 @@ export const Wrapper = styled("div")`
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
-  position: absolute;
+  position: relative;
   color: white;
   left:0;
   right: 0;
@@ -58,7 +58,7 @@ export const Copyrights = styled("div")`
 export const SvgIcon = styled("img")`
   width: 35px;
   height: 35px;
-  padding: 16px;
+  margin: 16px;
 
   ${minMediaQuery('sm')} {
     width: 50px;
