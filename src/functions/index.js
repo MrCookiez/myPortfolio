@@ -1,7 +1,6 @@
 /**
  * Get current year
- * @param {array}
- * @return
+ * @return {number}
  */
 
 export const getCurrentYear = () => {

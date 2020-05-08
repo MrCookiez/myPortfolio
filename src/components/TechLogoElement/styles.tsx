@@ -44,7 +44,7 @@ export const Logo = styled("div")`
   margin: 16px 8px;
 
   ${minMediaQuery('lg')} {
-    width: 15%;
+    width: 5%;
   }
 `;
 
@@ -52,12 +52,12 @@ export const Img = styled("img")`
   width: 50px;
 
   ${minMediaQuery('sm')} {
-    width: 100px;
-    max-height: 100px;
+    width: 80px;
+    max-height: 80px;
   }
 
   ${minMediaQuery('lg')} {
-    width: 150px;
+    width: 100px;
     max-height: 150px;
   }
 `;
