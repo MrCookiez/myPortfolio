@@ -30,7 +30,7 @@ export const Heading = styled("h2")`
   }
 `;
 
-export const LogoWrapper = styled("div")`
+export const LogosWrapper = styled("div")`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -41,23 +41,23 @@ export const LogoWrapper = styled("div")`
 `;
 
 export const Logo = styled("div")`
-  margin: 16px 8px;
+  margin: 16px auto;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
 
   ${minMediaQuery('lg')} {
+    margin: 16px 8px;
+    min-width: 100px;
     width: 5%;
   }
 `;
 
 export const Img = styled("img")`
-  width: 50px;
-
-  ${minMediaQuery('sm')} {
-    width: 80px;
-    max-height: 80px;
-  }
+  width: 80px;
+  align-self: center;
 
   ${minMediaQuery('lg')} {
     width: 100px;
-    max-height: 150px;
   }
 `;

@@ -17,15 +17,16 @@ export default {
   images: [
     html,
     css,
+    node,
     styledComponents,
     react,
     js,
     typescript,
     jest,
-    node,
+    // node,
     express,
     sequelize,
     mysql,
     mongodb,
-  ]
+  ],
 };

@@ -10,8 +10,8 @@ const App: React.FC = () => {
     <div className="App">
       <Hero />
       <ContentBlock />
-      <ProjetsSection />
       <TechLogoElement />
+      <ProjetsSection />
       <Footer />
     </div>
   );
