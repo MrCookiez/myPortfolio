@@ -1,10 +1,8 @@
 # myPortfolio
-> A Site to showcase my experience as a web developer
+> Personal site to give a small insight of my developer experience
 
 ### Tech Stack
 
 * React JS
-* CSS/SCSS
+* Styled Components
 * TypeScript
-* Node JS
-* MongoDB
