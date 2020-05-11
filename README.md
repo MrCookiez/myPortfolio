@@ -4,7 +4,5 @@
 ### Tech Stack
 
 * React JS
-* CSS/SCSS
+* Styled Components
 * TypeScript
-* Node JS
-* MongoDB
