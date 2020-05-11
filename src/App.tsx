@@ -5,16 +5,14 @@ import ContentBlock from './components/ContentBlock';
 import TechLogoElement from './components/TechLogoElement';
 import ProjetsSection from './components/ProjectsSection';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <Hero />
-      <ContentBlock />
-      <TechLogoElement />
-      <ProjetsSection />
-      <Footer />
-    </div>
-  );
-};
+const App: React.FC = () => (
+  <div className="App">
+    <Hero />
+    <ContentBlock />
+    <TechLogoElement />
+    <ProjetsSection />
+    <Footer />
+  </div>
+);
 
 export default App;

@@ -19,7 +19,7 @@ const TechLogoElements: React.FC = () => {
     <Component.Wrapper>
 
       <Component.Heading>
-        <span>{pre}</span>
+        <span>{`${pre} `}</span>
         {heading}
       </Component.Heading>
 

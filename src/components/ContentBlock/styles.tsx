@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { minMediaQuery } from '../config/grid';
 
-export const Wrapper = styled("div")`
+export const Wrapper = styled('div')`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ export const Wrapper = styled("div")`
   }
 `;
 
-export const ImageContainer = styled("div")`
+export const ImageContainer = styled('div')`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -26,12 +26,12 @@ export const ImageContainer = styled("div")`
   }
 `;
 
-export const Image = styled("img")`
+export const Image = styled('img')`
   width: 100%;
   max-width: 400px;
 `;
 
-export const TextBlock = styled("div")`
+export const TextBlock = styled('div')`
   width: 100%;
   color: #006699;
   background-color: white;
@@ -44,7 +44,7 @@ export const TextBlock = styled("div")`
   }
 `;
 
-export const Heading = styled("h2")`
+export const Heading = styled('h2')`
   background-color: white;
   font-size: 22px;
   font-weight: bold;
@@ -65,7 +65,7 @@ export const Heading = styled("h2")`
   }
 `;
 
-export const Text = styled("p")`
+export const Text = styled('p')`
   line-height: 1.5;
   letter-spacing: 1;
   font-size: 16px;

@@ -24,7 +24,7 @@ const animation = css`
   }
 `;
 
-export const Wrapper = styled("div")`
+export const Wrapper = styled('div')`
   background: url(${bg}) fixed;
   background-size: cover;
   height: 100vh;
@@ -36,7 +36,7 @@ export const Wrapper = styled("div")`
   text-align: center;
 `;
 
-export const Heading = styled("h3")`
+export const Heading = styled('h3')`
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   font-size: 32px;
@@ -56,7 +56,7 @@ export const Heading = styled("h3")`
   }
 `;
 
-export const SubTitle = styled("h4")`
+export const SubTitle = styled('h4')`
   font-size: 16px;
   padding: 8px 24px;
   font-weight: 300;
@@ -73,7 +73,7 @@ export const SubTitle = styled("h4")`
   }
 `;
 
-export const FullName = styled("h1")`
+export const FullName = styled('h1')`
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -90,7 +90,7 @@ export const FullName = styled("h1")`
   }
 `;
 
-export const Role = styled("h2")`
+export const Role = styled('h2')`
   font-size: 16px;
   padding: 8px 24px;
   margin: 0 auto;
@@ -109,7 +109,7 @@ export const Role = styled("h2")`
   }
 `;
 
-export const Arrow = styled("button")`
+export const Arrow = styled('button')`
   ${animation}
 
   width: 30px;

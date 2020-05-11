@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { minMediaQuery } from '../config/grid';
 
-export const Wrapper = styled("div")`
+export const Wrapper = styled('div')`
   width: 100%;
   box-sizing: border-box;
 `;
 
-export const Heading = styled("h2")`
+export const Heading = styled('h2')`
   font-size: 22px;
   font-weight: 300;
   text-transform: uppercase;
@@ -30,7 +30,7 @@ export const Heading = styled("h2")`
   }
 `;
 
-export const LogosWrapper = styled("div")`
+export const LogosWrapper = styled('div')`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +40,7 @@ export const LogosWrapper = styled("div")`
   padding: 24px 40px;
 `;
 
-export const Logo = styled("div")`
+export const Logo = styled('div')`
   margin: 16px auto;
   min-height: 80px;
   display: flex;
@@ -53,7 +53,7 @@ export const Logo = styled("div")`
   }
 `;
 
-export const Img = styled("img")`
+export const Img = styled('img')`
   width: 80px;
   align-self: center;
 

@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 import { minMediaQuery } from '../config/grid';
 
-export const Wrapper = styled("div")`
+export const Wrapper = styled('div')`
   margin: 24px 0 40px;
 `;
 
-export const HeadingWrapper = styled("div")`
+export const HeadingWrapper = styled('div')`
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
 `;
 
-export const Heading = styled("h2")`
+export const Heading = styled('h2')`
   font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
@@ -34,15 +34,26 @@ export const Heading = styled("h2")`
   }
 `;
 
-export const Grid = styled("div")`
+export const Grid = styled('div')`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 
   ${minMediaQuery('sm')} {
     flex-wrap: wrap;
+  }
 `;
 
-export const Item = styled("div")``;
+export const Item = styled('div')`
+  width: 100%;
 
-export const TextBlock = styled("div")``;
+  ${minMediaQuery('sm')} {
+    width: 50%;
+  }
+
+  ${minMediaQuery('lg')} {
+    width: 25%;
+  }
+`;
+
+export const TextBlock = styled('div')``;
