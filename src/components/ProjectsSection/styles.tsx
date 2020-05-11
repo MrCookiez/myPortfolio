@@ -46,6 +46,7 @@ export const Grid = styled('div')`
 
 export const Item = styled('div')`
   width: 100%;
+  display: flex;
 
   ${minMediaQuery('sm')} {
     width: 50%;

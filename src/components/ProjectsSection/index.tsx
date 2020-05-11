@@ -17,15 +17,18 @@ const ProjetsSection: React.FC = () => (
 
     <Component.Grid>
       {projects.map(({
-        name, imgSrc, url, desc: { features, difficulties, mySolutions },
+        name, imgSrc, url, desc: {
+          type, general, role, features,
+        },
       }) => (
         <Component.Item key={name}>
           <Card
             image={imgSrc}
             title={name}
+            type={type}
+            general={general}
+            role={role}
             features={features}
-            difficulties={difficulties}
-            mySolutions={mySolutions}
             url={url}
           />
         </Component.Item>

@@ -1,5 +1,5 @@
 # myPortfolio
-> Personal site to give a small insight of my developer experience
+> Personal site to give a small insight of my professional experience as a developer
 
 ### Tech Stack
 
