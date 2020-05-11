@@ -22,7 +22,7 @@ const ContentBlock: React.FC = () => (
         </span>
         {heading}
       </Component.Heading>
-      <Component.Text>{text}</Component.Text>
+      <Component.Text dangerouslySetInnerHTML={{ __html: text }} />
     </Component.TextBlock>
   </Component.Wrapper>
 );
