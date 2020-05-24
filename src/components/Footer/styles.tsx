@@ -2,12 +2,11 @@ import styled from 'styled-components';
 import { minMediaQuery } from '../config/grid';
 import bg from './img/footer-bg.jpg';
 
-export const Wrapper = styled("div")`
+export const Wrapper = styled('div')`
   background-image: url(${bg});
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
-  position: relative;
   color: white;
   left:0;
   right: 0;
@@ -17,9 +16,10 @@ export const Wrapper = styled("div")`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 `;
 
-export const Heading = styled("h2")`
+export const Heading = styled('h2')`
   display: flex;
   justify-content: center;
   font-size: 28px;
@@ -37,14 +37,14 @@ export const Heading = styled("h2")`
   }
 `;
 
-export const IconsWrapper = styled("div")`
+export const IconsWrapper = styled('div')`
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
 `;
 
-export const Copyrights = styled("div")`
+export const Copyrights = styled('div')`
   text-align: center;
   font-size: 14px;
   padding: 8px;
@@ -55,7 +55,7 @@ export const Copyrights = styled("div")`
   box-sizing: border-box;
 `;
 
-export const SvgIcon = styled("img")`
+export const SvgIcon = styled('img')`
   width: 35px;
   height: 35px;
   margin: 16px;
@@ -64,4 +64,9 @@ export const SvgIcon = styled("img")`
     width: 50px;
     height: 50px;
   }
+`;
+
+export const Privacy = styled('a')`
+  color: white;
+  margin: 0 20px;
 `;

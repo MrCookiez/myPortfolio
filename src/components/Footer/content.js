@@ -1,7 +1,6 @@
 import fb from './img/facebook.svg';
 import github from './img/github.svg';
 import linkedIn from './img/linkedin.svg';
-import upwork from './img/upwork.svg';
 
 export default {
   'pre-heading': 'my',
@@ -21,11 +20,6 @@ export default {
       name: 'github',
       url: 'https://github.com/MrCookiez',
       imgSrc: github,
-    },
-    {
-      name: 'upwork',
-      url: 'https://www.upwork.com/o/profiles/users/~0191f5d5b46c7ffe35/',
-      imgSrc: upwork,
     },
   ],
 };
