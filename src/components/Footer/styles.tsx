@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { minMediaQuery } from '../config/grid';
 import bg from './img/footer-bg.jpg';
 
@@ -66,7 +67,7 @@ export const SvgIcon = styled('img')`
   }
 `;
 
-export const Privacy = styled('a')`
+export const Privacy = styled(Link)`
   color: white;
   margin: 0 20px;
 `;

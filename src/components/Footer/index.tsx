@@ -26,7 +26,7 @@ const Footer: React.FC = () => (
     </Component.IconsWrapper>
     <Component.Copyrights>
       {`© Copyrights ${getCurrentYear()} - Theodoros Vragkos`}
-      <Component.Privacy href="/privacy" rel="noreferrer noopener" target="_blank">Privacy policy</Component.Privacy>
+      <Component.Privacy to="privacy">Privacy policy</Component.Privacy>
     </Component.Copyrights>
   </Component.Wrapper>
 );
