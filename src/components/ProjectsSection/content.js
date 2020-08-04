@@ -16,7 +16,7 @@ export default {
         role: 'Create reusable components according to the design.',
         features: 'Home page, thank you page, restaurants overview page, restaurant team page.',
       },
-      url: 'https://mcdonalds.csb-demo.en2.cloud/',
+      url: 'https://werkenbijmcdonalds.nl/',
     },
     {
       name: 'florinafood.gr',
