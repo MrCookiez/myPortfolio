@@ -27,7 +27,7 @@ const Blog: React.FC = () => {
           index: number
         ) => (
           <div key={`post-key-${index.toString()}`} className="post">
-            empty
+            empty!
             {/* <span>Share on Facebook</span>
     <span>Share on Instagram</span>
     <span>Share the Link</span> */}
