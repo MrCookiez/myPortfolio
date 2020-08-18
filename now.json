@@ -1,0 +1,11 @@
+{
+  "deploy-previews": {
+    "exclude": [
+      "dev/*",
+      "test/dev"
+    ],
+    "exclude-labels": [
+      "no-pre-deploy"
+    ]
+  }
+}
