@@ -23,7 +23,7 @@ export default {
       imgSrc: florinafood,
       desc: {
         type: 'Online food delivery',
-        general: 'This is a side project on which I am working in my free time. (From Jan 2020 working I am working on version 2 with React/Node/MySQL).',
+        general: 'This is a side project. I am working on it in my free time. (From Jan 2020, I am working on version 2, with React/NextJS/NodeJS/AWS).',
         role: 'Analyse the market and build the frontend/backend of the website.',
         features: 'Full project',
       },
